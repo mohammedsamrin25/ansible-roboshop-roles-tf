@@ -1,2 +1,2 @@
-CATALOGUE_HOST: catalogue.summu.site
-REDIS_HOST: redis.summu.site
+CATALOGUE_HOST: catalogue.backend-{{ env }}.summu.site
+REDIS_HOST: redis-{{ env }}.summu.site

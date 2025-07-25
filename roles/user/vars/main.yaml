@@ -1,2 +1,2 @@
-REDIS_HOST: redis.summu.site
-MONGODB_HOST: mongodb.summu.site
+REDIS_HOST: redis-{{ env }}.summu.site
+MONGODB_HOST: mongodb-{{ env }}.summu.site
