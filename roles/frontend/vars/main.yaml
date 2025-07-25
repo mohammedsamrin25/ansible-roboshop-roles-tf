@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.summu.site
-USER_HOST: user.summu.site
-CART_HOST: cart.summu.site
-SHIPPING_HOST: shipping.summu.site
-PAYMENT_HOST: payment.summu.site
+CATALOGUE_HOST: catalogue-{{ env }}.summu.site
+USER_HOST: user-{{ env }}.summu.site
+CART_HOST: cart-{{ env }}.summu.site
+SHIPPING_HOST: shipping-{{ env }}.summu.site
+PAYMENT_HOST: payment-{{ env }}.summu.site
