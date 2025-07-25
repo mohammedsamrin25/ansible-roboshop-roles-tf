@@ -1,5 +1,5 @@
 CART_HOST: cart.backend-{{ env }}.summu.site
 USER_HOST: user.backend-{{ env }}.summu.site
-RABBITMQ_HOST: rabbitmq-{{ env }}.summu.site
+RABBITMQ_HOST: rabbitmq.backend-{{ env }}.summu.site
 RABBITMQ_USER: roboshop
 RABBITMQ_PASSWORD: roboshop123
